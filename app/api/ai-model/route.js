@@ -1,7 +1,5 @@
 import OpenAI from "openai";
 
-export const runtime = "edge";
-
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "POST, OPTIONS",

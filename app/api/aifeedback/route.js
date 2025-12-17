@@ -1,7 +1,5 @@
 import OpenAI from "openai";
 
-export const runtime = "edge";
-
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
@@ -28,7 +26,7 @@ Analyze the conversation and return ONLY valid JSON:
     "problemSolving": 0-5,
     "experience": 0-5
   },
-  "summery": "",
+  "summary": "",
   "Recommendation": "",
   "RecommendationMsg": ""
 }
