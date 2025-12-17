@@ -2,7 +2,7 @@
   "name": "my-interview-backend",
   "version": "1.0.0",
   "description": "AI Interview backend using Next.js and OpenAI/OpenRouter",
-  "main": "index.js",
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
