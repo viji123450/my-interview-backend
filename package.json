@@ -2,23 +2,19 @@
   "name": "my-interview-backend",
   "version": "1.0.0",
   "description": "AI Interview backend using Next.js and OpenAI/OpenRouter",
-  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "next": "^16.0.10",
-    "node-fetch": "^3.3.2",
-    "openai": "^6.8.1",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "next": "15.0.3",
+    "openai": "^4.73.0",
+    "react": "19.0.0-rc-66238b04-20241112",
+    "react-dom": "19.0.0-rc-66238b04-20241112",
+    "dotenv": "^16.4.5"
   }
 }
